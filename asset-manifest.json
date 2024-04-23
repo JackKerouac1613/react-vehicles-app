@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-vehicles-app/static/css/main.cae41a00.css",
+    "main.css": "/react-vehicles-app/static/css/main.dbbc21b6.css",
     "main.js": "/react-vehicles-app/static/js/main.b35f51e8.js",
     "index.html": "/react-vehicles-app/index.html",
-    "main.cae41a00.css.map": "/react-vehicles-app/static/css/main.cae41a00.css.map",
+    "main.dbbc21b6.css.map": "/react-vehicles-app/static/css/main.dbbc21b6.css.map",
     "main.b35f51e8.js.map": "/react-vehicles-app/static/js/main.b35f51e8.js.map"
   },
   "entrypoints": [
-    "static/css/main.cae41a00.css",
+    "static/css/main.dbbc21b6.css",
     "static/js/main.b35f51e8.js"
   ]
 }
