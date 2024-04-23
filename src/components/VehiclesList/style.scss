@@ -1,0 +1,99 @@
+.vehicles-list {
+	margin-bottom: 20px;
+
+	h1, h2 {
+		margin-bottom: 10px;
+	}
+
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	li {
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		padding: 10px;
+		transition: box-shadow 0.3s ease;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		width: calc(33.33% - 7px);
+
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
+
+		&:hover {
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+		}
+
+		strong {
+			font-size: 18px;
+		}
+
+		p {
+			margin: 5px 0;
+		}
+	}
+
+	button {
+		margin-right: 5px;
+		cursor: pointer;
+		padding: 5px 10px;
+		border: none;
+		background-color: #007bff;
+		color: #fff;
+		border-radius: 3px;
+		transition: background-color 0.3s ease;
+
+		&:hover {
+			background-color: #0056b3;
+		}
+
+		&:active {
+			background-color: #0056b3;
+			transition-delay: 0.3s;
+		}
+	}
+
+	input {
+		margin-bottom: 5px;
+		padding: 5px;
+		border: 1px solid #ccc;
+		border-radius: 3px;
+		width: 100%;
+	}
+
+	span {
+		margin-right: 10px;
+	}
+
+	&_sort {
+		margin-bottom: 10px;
+	}
+
+	&_address {
+		display: flex;
+	}
+}
+
+.spinner-container {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 20px;
+
+	div {
+		width: 20px;
+		height: 20px;
+		border-radius: 50%;
+		border: 4px solid #f3f3f3;
+		border-top: 4px solid #3498db;
+		animation: spin 1s linear infinite;
+	}
+}
+  
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
